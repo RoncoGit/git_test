@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="ini.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> 
+</head>
+<body id="ini">
+    <header>
+    <img src="https://www.fescoop.com/wp-content/uploads/2018/07/american-scool-way.jpg" alt="Logo ASW">
+    <h1 id="title">Vinculations Form to American School Way.</h1>
+    </header>
+    <p id="description">Enter you info to proceed with the service of vinculation on American School Way (The most important English Academy of the country.)</p>
+<fieldset id="camp">
+    <form action="#" id="survey-form">
+        <label id="name-label" for="name">Name</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" minlength="1" required>
+        <hr>
+        <br>
+        <label id="email-label" for="email">E-mail</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Enter Your email" required>
+        <hr>
+        <br>
+        <label id="number-label" for="number">Telephone Number</label>
+        <br>
+        <input type="number" id="number" name="number" placeholder="Enter your phone number" minlength="7" maxlength="10" min="1" max="10" required>
+        <hr>
+        <br>
+        <label for="dropdown">Levels Acquired</label>
+        <br>
+        <select name="dropdown" id="dropdown" required>
+            <option value="1" selected>A1</option>
+            <option value="2">A2</option>
+            <option value="3">B1</option>
+            <option value="4">B2</option>
+            <option value="5">B2.1</option>
+            <option value="6">B2.2</option>
+            <option value="7">C1</option>
+            <option value="8">Don't have level</option>
+        </select>
+        <hr>
+        <br>
+        <p id="textselection">Document Type</p>
+        <label for="doctype"><input checked type="radio" id="doctype1" name="doctype" value="value1">Cedula de ciudadania</label>
+        <br>
+        <label for="doctype"><input type="radio" id="doctype2" name="doctype" value="value2">Tarjeta de Identidad</label>
+        <br>
+        <label for="doctype"><input type="radio" id="doctype3" name="doctype" value="value3">Cedula de Extranjeria</label>
+        <br>
+        <label for="doctype"><input type="radio" id="doctype4" name="doctype" value="value4">Pasaporte</label>
+        <hr>
+        <br>
+        <p id="textselection">Study Level</p>
+        <label for="studylevel"><input type="checkbox" id="slevel1" name="studylevel" value="va1">High School</label>
+        <br>
+        <label for="studylevel"><input type="checkbox" id="slevel2" name="studylevel" value="va2">Basic Primary</label>
+        <br>
+        <label for="studylevel"><input type="checkbox" id="slevel3" name="studylevel" value="va3">Magister</label>
+        <br>
+        <label for="studylevel"><input type="checkbox" id="slevel4" name="studylevel" value="va4">Ph.D.</label>
+        <br>
+        <label for="studylevel"><input type="checkbox" id="slevel5" name="studylevel" value="va5">Professional</label>
+        <br>
+        <label for="studylevel"><input type="checkbox" id="slevel6" name="studylevel" value="va0">None</label>
+        <br>
+        <hr>
+        <br>
+        <label for="commit">Leave your opinion.</label>
+        <br>
+        <textarea name="commit" id="commit" cols="100" rows="10" placeholder="Enter your commit"></textarea>
+        <br>
+        <hr>
+        <button id="submit" type="submit" name="submit">Send</button>     
+    </form>
+</fieldset>
+    
+</body>
+</html>
