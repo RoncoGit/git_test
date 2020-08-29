@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indoor Plants</title>
+  <link rel="stylesheet" href="ini.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+  <style>
+    #title{
+      font-family: 'Raleway', sans-serif;
+      font-size: 60px;
+      background-color: #ec8d7a;
+      border-radius: 20px; 
+      width: max-content;
+      display:block;
+      margin: auto;      
+    }
+    #img-div{
+      width: fit-content;
+      height: fit-content;
+    }
+    #image{
+      width: 100%;
+      height: auto;
+      display:block;
+      margin: auto;
+    }
+    #img-caption{
+      font-size: 10px;
+      text-align:center;
+    }
+    #tribute-info{
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "Raleway", sans-serif;
+    }
+    #tribute-link{
+      text-decoration: none;
+      color: black;
+      font-family: "Raleway", sans-serif;
+      background-color: #557571;
+      display: block;
+      text-align: center;
+      border-radius: 10px;
+      width: 200px;
+      margin: auto;
+      
+    }
+    #tribute-link:hover{
+      animation-name: "link-info";
+      animation-duration: 1.5s;
+      animation-fill-mode: forwards;  
+    }
+    @keyframes link-info {
+        0%{
+          background-color: #557571;
+        }
+        100%{
+          background-color: #d49a89;
+        }   
+    }
+    @media (max-width: 800px) {
+      #image{
+      width: 100%;
+      height: auto;
+      display:block;
+      margin: auto;
+      }
+    }
+    @media (max-width: 300px) {
+      #image{
+      width: 100%;
+      height: auto;
+      display:block;
+      margin: auto;
+      }
+    }
+  </style>
+</head>
+<body id="main">
+  <h1 id="title">Indoor Plants</h1>
+  <hr>
+  <div id="img-div">
+    <img id="image" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/plants1-1551895073.png" alt="indoor plants care">
+    <figcaption id="img-caption">Indoor plants care</figcaption>
+  </div>
+  <h2 id="tribute-info">The ultimate guide to indoor plants</h2>
+  <a id="tribute-link" target="_blank" href="https://www.ambius.com/blog/the-ultimate-guide-to-indoor-plants/">Get more info</a>
+  <hr>  
+</body>
+</html>
