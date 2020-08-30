@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+#navbar{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+#logor{
+    height: 100px;
+}
+#welcome-section{
+    background-color: #3b2e5a;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-family: 'Questrial', sans-serif;
+    font-size: 120px;
+    margin: 0px;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 0px;
+    color: black;
+}
+h3{
+    grid-area: "header";
+}
+#projects{
+    background-color: #4ea0ae;
+    width: 100%;
+    height: 1100px;
+    font-family: 'Questrial', sans-serif;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#imgp{
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#imgp img{
+    height: 400px;
+    width: 400px;
+    bottom: 0px;
+}
+#imgp p{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    top: 0px;
+    bottom: 0px;
+    height: auto;
+    
+}
+#contact{
+    height: 180px;
+    width: 100%;
+    background-color: #fff48f;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Questrial', sans-serif;
+}
+#conect{
+    font-size: 40px;
+    margin: 0;
+}
+#join{
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    padding: 5px;
+    border: 2px solid black;
+}
+button{
+    background-color: #a2d5f2;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 80px;
+}
+input{
+    border: 1px solid white;
+}
+footer{
+    display: flex;
+    height: 100px;
+    background-color: #394989;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+}
+footer img{
+    height: 40px;
+    margin: 0px 20px 0px 20px;
+}
+footer p{
+    margin: 20px;
+}
+@media(max-width: 600px){
+    #navbar{
+        max-width: 100%;
+    }
+    #welcome-section{
+        max-width: 100px;
+    }
+    footer{
+        max-width: 100%;
+    }
+}
